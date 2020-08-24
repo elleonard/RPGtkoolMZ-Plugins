@@ -1,6 +1,6 @@
 # RPGツクールMZ用プラグイン
 
-RPGツクールMV 1.0系 で動作するプラグインです。
+RPGツクールMZ 1.0系 で動作するプラグインです。
 RPGツクールMVにおける動作は保証しません。
 RPGツクールMV用プラグインは[こちら](https://github.com/elleonard/RPGtkoolMV-Plugins)
 
@@ -10,7 +10,7 @@ There are plugins working with RMMV 1.0.1 or later.
 ## 使い方
 
 jsファイルをゲームプロジェクトの js/plugins ディレクトリ下において
-RPGツクールMVのプラグイン管理から読み込んでください
+RPGツクールMZのプラグイン管理から読み込んでください
 
 # プラグインの説明
 
