@@ -4,7 +4,8 @@
 // http://opensource.org/licenses/mit-license.php
 
 /**
- * 2020/08/24 1.0.0 MZ版公開
+ * 2020/08/24 1.0.1 url修正
+ *            1.0.0 MZ版公開
  */
 
 /*:
@@ -13,7 +14,7 @@
  * @license MIT
  *
  * @target MZ
- * @url https://github.com/elleonard/RPGtkoolMV-Plugins
+ * @url https://github.com/elleonard/RPGtkoolMZ-Plugins
  *
  * @param Bounty Informations
  * @text 賞金首情報
@@ -414,7 +415,7 @@
     }
 
     /**
-     * @param {MV.Enemy} enemy 敵データ
+     * @param {MZ.Enemy} enemy 敵データ
      */
     setEnemy(enemy) {
       if (this._enemy !== enemy) {
