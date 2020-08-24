@@ -4,7 +4,7 @@ RPGツクールMZ 1.0系 で動作するプラグインです。
 RPGツクールMVにおける動作は保証しません。
 RPGツクールMV用プラグインは[こちら](https://github.com/elleonard/RPGtkoolMV-Plugins)
 
-There are plugins working with RMMV 1.0.1 or later.
+There are plugins working with RMMZ 1.0.1 or later.
 [RMMV plugins](https://github.com/elleonard/RPGtkoolMV-Plugins).
 
 ## 使い方
