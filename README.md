@@ -17,3 +17,7 @@ RPGツクールMZのプラグイン管理から読み込んでください
 ## DarkPlasma_BountyList.js
 
 賞金首一覧を表示するプラグイン
+
+## DarkPlasma_TinyMedal.js
+
+ちいさなメダルシステムを実現するプラグイン
