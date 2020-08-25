@@ -18,6 +18,10 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 賞金首一覧を表示するプラグイン
 
+## DarkPlasma_SupponREE.js
+
+ランダムな構成の敵を出現させるプラグイン
+
 ## DarkPlasma_TinyMedal.js
 
 ちいさなメダルシステムを実現するプラグイン
