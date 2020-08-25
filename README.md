@@ -21,3 +21,7 @@ RPGツクールMZのプラグイン管理から読み込んでください
 ## DarkPlasma_TinyMedal.js
 
 ちいさなメダルシステムを実現するプラグイン
+
+## DarkPlasma_WaitForCloseChoiceList.js
+
+シーンチェンジの際に、選択肢ウィンドウが閉じきるのを待つプラグイン
