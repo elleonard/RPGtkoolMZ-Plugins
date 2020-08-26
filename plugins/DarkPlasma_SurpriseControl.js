@@ -4,6 +4,7 @@
 // http://opensource.org/licenses/mit-license.php
 
 /**
+ * 2020/08/27 1.0.1 イベントコマンドの戦闘の処理で無限に戦闘が繰り返される不具合を修正
  * 2020/08/26 1.0.0 MZ版公開
  */
 
@@ -193,7 +194,8 @@
   const _Game_Interpreter_command301 = Game_Interpreter.prototype.command301;
   Game_Interpreter.prototype.command301 = function (params) {
     battleProcessByEvent = true;
-    _Game_Interpreter_command301.call(this, params);
+    const result = _Game_Interpreter_command301.call(this, params);
     battleProcessByEvent = false;
-  }
+    return result;
+  };
 })();
