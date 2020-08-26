@@ -14,6 +14,12 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 # プラグインの説明
 
+## DarkPlasma_BattleItemVisibility.js
+
+戦闘中のアイテムリストに表示するアイテムを制御するプラグイン
+
+戦闘中に使用不可なアイテムを表示できます
+
 ## DarkPlasma_BountyList.js
 
 賞金首一覧を表示するプラグイン
