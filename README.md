@@ -14,6 +14,12 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 # プラグインの説明
 
+## DarkPlasma_AdditionalAttackAnimation.js
+
+特定条件で攻撃アニメーションを追加するプラグイン
+
+特定のステートにかかっている敵や、特定の種類の敵に攻撃したとき、アニメーションを追加表示します
+
 ## DarkPlasma_BattleItemVisibility.js
 
 戦闘中のアイテムリストに表示するアイテムを制御するプラグイン
