@@ -47,6 +47,10 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 最低ダメージ保証システムを追加するプラグイン
 
+## DarkPlasma_SkillCooldown.js
+
+スキルにクールタイムを設定するプラグイン
+
 ## DarkPlasma_SkillCostExtension.js
 
 スキルのコストを拡張するプラグイン
