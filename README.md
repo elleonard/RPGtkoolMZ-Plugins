@@ -47,6 +47,10 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 逃走成功時にペナルティを与えるプラグイン
 
+## DarkPlasma_ForceFormation.js
+
+全滅時に強制的に後衛と入れ替えるプラグイン
+
 ## DarkPlasma_MinimumDamageValue.js
 
 最低ダメージ保証システムを追加するプラグイン
