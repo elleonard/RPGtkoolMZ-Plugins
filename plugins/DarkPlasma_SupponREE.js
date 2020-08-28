@@ -12,6 +12,7 @@
  * プラグイン説明:
  * http://supponweblog.blog88.fc2.com/blog-category-13.html
  * 
+ * 2020/08/29 1.0.1 フロントビューにおける敵配置の調整
  * 2020/08/26 1.0.0 MZ対応
  */
 
@@ -160,14 +161,6 @@
     FIXED_ENEMY: "fixedEnemy",
     RANDOM_ENCOUNTER: "supponREE"
   };
-
-  class RandomEncounterSetting {
-    constructor(id, type, ratio) {
-      this._id = id;
-      this._type = type;
-      this._ratio = ratio;
-    }
-  }
 
   const _extractMetadata = DataManager.extractMetadata;
   DataManager.extractMetadata = function (data) {
@@ -328,7 +321,7 @@
    */
   Spriteset_Battle.prototype.supponReLinedUpEnemy = function () {
     const depth = Math.round(Graphics.boxHeight * 0.15);      // エネミーのいる列によって生じる奥行き表現をするためのY補正用数値
-    const base_y = Math.round(Graphics.boxHeight * 0.7);
+    const base_y = Math.round(Graphics.boxHeight * 0.98);
     this._enemySprites.forEach(sprite => sprite.updateBitmap());
     this._enemySprites.reverse();
     // 全スプライトの表示横幅合計
