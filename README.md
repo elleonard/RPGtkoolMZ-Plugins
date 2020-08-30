@@ -58,6 +58,10 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 全滅時に強制的に後衛と入れ替えるプラグイン
 
+## DarkPlasma_MaxItemCount.js
+
+アイテムの所持最大数を設定するプラグイン
+
 ## DarkPlasma_MinimumDamageValue.js
 
 最低ダメージ保証システムを追加するプラグイン
