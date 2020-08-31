@@ -4,6 +4,7 @@
 // http://opensource.org/licenses/mit-license.php
 
 /**
+ * 2020/09/01 1.0.1 クールダウンターン数が1少ない不具合を修正
  * 2020/08/27 1.0.0 MZ版公開
  */
 
@@ -193,7 +194,7 @@
     static setup(triggerSkillId) {
       const cooldownSetting = skillCooldownSettings.getSkillCooldownSetting(triggerSkillId);
       return cooldownSetting
-        ? cooldownSetting.targets.map(target => new SkillCooldown(target.skillId, target.turnCount))
+        ? cooldownSetting.targets.map(target => new SkillCooldown(target.skillId, target.turnCount+1))
         : [];
     }
 
