@@ -4,7 +4,8 @@
 // http://opensource.org/licenses/mit-license.php
 
 /**
- * 2020/09/01 1.0.0 公開
+ * 2020/09/01 1.0.1 ゲームが起動できなくなる不具合を修正
+ *            1.0.0 公開
  */
 
 /*:
@@ -127,8 +128,8 @@
 
   const settings = {
     extraParamNames: [
-      TextManager.param(TEXT_MANAGER_PARAM_ID.HIT),
-      TextManager.param(TEXT_MANAGER_PARAM_ID.EVASION),
+      "",
+      "",
       String(pluginParameters.extraParamNameCritical || '会心率'),
       String(pluginParameters.extraParamNameCriticalEvasion || '会心回避率'),
       String(pluginParameters.extraParamNameMagicEvasion || '魔法回避率'),
@@ -150,6 +151,15 @@
       String(pluginParameters.specialParamNameFloorDamageRate || '床ダメージ率'),
       String(pluginParameters.specialParamNameExperienceRate || '経験獲得率'),
     ],
+  };
+
+  const _DataManager_onLoad = DataManager.onLoad;
+  DataManager.onLoad = function (object) {
+    _DataManager_onLoad.call(this, object);
+    if (object.terms && object.terms.params) {
+      settings.extraParamNames[0] = TextManager.param(TEXT_MANAGER_PARAM_ID.HIT);
+      settings.extraParamNames[1] = TextManager.param(TEXT_MANAGER_PARAM_ID.EVASION);
+    }
   };
 
   /**
