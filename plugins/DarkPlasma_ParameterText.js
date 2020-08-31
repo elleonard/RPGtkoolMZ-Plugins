@@ -9,7 +9,7 @@
  */
 
 /*:
- * @plugindesc 
+ * @plugindesc 特殊能力値、追加能力値表記テキスト設定プラグイン
  * @author DarkPlasma
  * @license MIT
  *
