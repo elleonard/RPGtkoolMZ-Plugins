@@ -11,7 +11,8 @@
  * 当プラグインはSupponさんが作成されたものをDarkPlasmaが修正したものです。
  * プラグイン説明:
  * http://supponweblog.blog88.fc2.com/blog-category-13.html
- * 
+ *
+ * 2020/09/01 1.0.2 フロントビューにおいて敵スプライトにゴミが表示される不具合を修正
  * 2020/08/29 1.0.1 フロントビューにおける敵配置の調整
  * 2020/08/26 1.0.0 MZ対応
  */
@@ -335,8 +336,8 @@
     const enemyPerLine = Math.ceil(enemyCount / line); // 列あたりのエネミーの数
     this._enemySprites.forEach((sprite, index) => {
       const currentEnemyLine = Math.ceil((index + 1) / enemyPerLine);   // 注目しているエネミーの列
-      let x = Graphics.boxWidth * (index % enemyPerLine) / (enemyPerLine * 1.2)
-        + Graphics.boxWidth * currentEnemyLine / (enemyPerLine * 1.2 * line);
+      let x = Math.floor(Graphics.boxWidth * (index % enemyPerLine) / (enemyPerLine * 1.2)
+        + Graphics.boxWidth * currentEnemyLine / (enemyPerLine * 1.2 * line));
       let y = base_y - depth - (Math.ceil(depth * Math.pow(0.7, currentEnemyLine)));
       sprite.setHome(x, y);
       if (maxx === null) { maxx = x; minx = x; };
@@ -414,6 +415,7 @@
    */
   Sprite_Enemy.prototype.shiftXLeft = function (shiftX) {
     this._homeX -= shiftX;
+    this.updatePosition();
   };
 
   Sprite_Enemy.prototype.feedbackPositionToEnemy = function () {
