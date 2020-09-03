@@ -12,6 +12,10 @@ There are plugins working with RMMZ 1.0.1 or later.
 jsファイルをゲームプロジェクトの js/plugins ディレクトリ下において
 RPGツクールMZのプラグイン管理から読み込んでください
 
+## 修正したい方へ
+
+[CONTRIBUTING.md](CONTRIBUTING.md) をお読みください。
+
 # プラグインの説明
 
 ## DarkPlasma_AdditionalAttackAnimation.js
