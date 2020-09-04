@@ -58,6 +58,10 @@ RPGツクールMZのプラグイン管理から読み込んでください
 
 逃走成功時にペナルティを与えるプラグイン
 
+## DarkPlasma_ExpandTargetScope.js
+
+スキル/アイテムの対象を全体化できるようにするプラグイン
+
 ## DarkPlasma_ForceFormation.js
 
 全滅時に強制的に後衛と入れ替えるプラグイン
