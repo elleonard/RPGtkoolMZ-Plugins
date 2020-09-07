@@ -7,14 +7,12 @@ RPGツクールMV用プラグインは[こちら](https://github.com/elleonard/R
 There are plugins working with RMMZ 1.0.1 or later.
 [RMMV plugins](https://github.com/elleonard/RPGtkoolMV-Plugins).
 
-## 使い方
+rollupを利用した新リポジトリに移行しました。  
+このリポジトリにあるプラグインは古いため、利用を推奨しません。  
+[新リポジトリ](https://github.com/elleonard/DarkPlasma-MZ-Plugins/tree/release) をご利用ください。
 
-jsファイルをゲームプロジェクトの js/plugins ディレクトリ下において
-RPGツクールMZのプラグイン管理から読み込んでください
-
-## 修正したい方へ
-
-[CONTRIBUTING.md](CONTRIBUTING.md) をお読みください。
+This repository is archived.  
+Please see [new repository](https://github.com/elleonard/DarkPlasma-MZ-Plugins/tree/release).
 
 # プラグインの説明
 
